@@ -22,6 +22,7 @@ call vundle#rc()
 "  git-gutter for displaying changed lines of code
 "  vim-fugitive for displaying git branches in airline
 "  airline for awesome status bar
+"  nerdtree for easy directory browsing
 
 " let Vundle manage Vundle
 " required! 
@@ -29,6 +30,7 @@ Bundle 'gmarik/vundle'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-fugitive'
 Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on
 
